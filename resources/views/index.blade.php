@@ -41,7 +41,7 @@
               <i class="fa-solid fa-user"></i> Fadhil Muhammad Lubis 211402023
             </button>
             <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-              <li><a class="dropdown-item" href="profil.html">Profil</a></li>
+              <li><a class="dropdown-item" href="profil">Profil</a></li>
               <li><a class="dropdown-item" href="#">Kontak</a></li>
               <li>
                 <hr class="dropdown-divider">

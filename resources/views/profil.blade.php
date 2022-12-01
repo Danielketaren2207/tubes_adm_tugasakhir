@@ -52,86 +52,55 @@
         <a href="profil.html" class="btn">Profil</a></br>
         <a href="registrasi.html" class="btn">Registrasi</a></br>
         <a href="" class="btn">Status Tugas Akhir</a></br>
-        <a href="" class="btn">Registrasi Wisuda</a></br>
+        <a href="registrasiwisuda.html" class="btn">Registrasi Wisuda</a></br>
         <a href="" class="btn">Cetak Berkas</a></br>
       </div>
     </div>
   </div>
   
   <!--Isi Utama-->
-  <div class="container">
-    <div class="my-3">
-        <h4>Portal Tugas Akhir</h4>
-        <h5>Profil</h5>
+  <div class="container card bg-light my-5">
+    <div class="row">
+      <div class="col-2 d-none d-lg-block">
+        <div class="m-3">
+          <center><div class="card"><img src="https://images-platform.99static.com//jUK1r-2WsP_uOqdj0J7_33QMBRw=/162x73:951x862/fit-in/500x500/projects-files/49/4994/499471/66c35449-22d5-4a1d-8751-52a2c0def055.jpg" alt="" style="height: 100%; width: 100%;"></div></center>
+        </div>  
+      </div>
+      <div class="col-10">
+        <div class="my-5">
+          <h2>Fadhil Muhammad Lubis</h2>
+          <h4>211402023</h4>
+        </div>
+      </div>
     </div>
-    <div class="mb-3">
-        <table>
-            <tr>
-                <th>Nama</th>
-                <th class="px-4">:</th>
-                <th>Fadhil Muhammad Lubis</th>
-            </tr>
-            <tr>
-                <th>Alamat</th>
-                <th class="px-4">:</th>
-                <th>Jalan Angkatan 66 No 10, Aek Kanopan</th>
-            </tr>
-            <tr>
-                <th>NIM</th>
-                <th class="px-4">:</th>
-                <th>211402023</th>
-            </tr>
-            <tr>
-                <th>NIK</th>
-                <th class="px-4">:</th>
-                <th>1221654835791648</th>
-            </tr>
-            <tr>
-                <th>Tempat Tanggal Lahir </th>
-                <th class="px-4">:</th>
-                <th>Kisaran, 20 November 2003</th>
-            </tr>
-            <tr>
-                <th>Agama</th>
-                <th class="px-4">:</th>
-                <th>Islam</th>
-            </tr>
-            <tr>
-                <th>Jenis Kelamin</th>
-                <th class="px-4">:</th>
-                <th>Laki-laki</th>
-            </tr>
-            <tr>
-                <th>Email</th>
-                <th class="px-4">:</th>
-                <th>fadhilml03@gmail.com</th>
-            </tr>
-            <tr>
-                <th>Nomor HP</th>
-                <th class="px-4">:</th>
-                <th>082273084517</th>
-            </tr>
-            <tr>
-                <th>Tanggal Terdaftar</th>
-                <th class="px-4">:</th>
-                <th>28 April 2021</th>
-            </tr>
-            <tr>
-                <th>Warga Negara</th>
-                <th class="px-4">:</th>
-                <th>WNI</th>
-            </tr>
-            <tr>
-                <th>NISN</th>
-                <th class="px-4">:</th>
-                <th>33179813</th>
-            </tr>
-            <tr>
-                <th>Status</th>
-                <th class="px-4">:</th>
-                <th>Aktif</th>
-            </tr>
-        </table>
+
+    <div class="row">
+      <div class="col m-3">
+        <h4>User Details</h4></br>
+        <div>
+
+          <h5>Email:</h5>
+          <p>fadhilml03@gmail.com</p></br>
+
+          <h5>Tempat Tanggal Lahir:</h5>
+          <p>Kisaran, 20 November 2003</p></br>
+
+          <h5>Nomor Hp:</h5>
+          <p>082273084517</p></br>
+
+          <h5>Dosen Pembimbing:</h5>
+          <ol>
+            <li>Akan Segera Ditambahkan</li>
+            <li>Akan Segera Ditambahkan</li>
+          </ol></br>
+
+          <h5>Dosen Penguji:</h5>
+          <ol>
+            <li>Akan Segera Ditambahkan</li>
+            <li>Akan Segera Ditambahkan</li>
+          </ol></br>
+        </div>
+      </div>
     </div>
   </div>
 
