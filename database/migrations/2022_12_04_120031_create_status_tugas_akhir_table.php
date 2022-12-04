@@ -13,15 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('log_validasi_akun', function (Blueprint $table) {
-            $table->id();
-            $table->string('nim');
-            $table->string('password');
-            $table->string('foto');
-            $table->datetime('waktu_pengajuan');
-            $table->string('aksi');
-            $table->enum('status',['Dalam proses','Ditolak','Diterima']);
+        Schema::create('status_tugas_akhir', function (Blueprint $table) {
+            $table->integer('id_tugas_akhir');
+            $table->integer('id_status');
+            $table->string('keterangan');
+            $table->enum('status',['Sedang Diproses', 'Berhasil', 'Gagal']);
             $table->string('comment');
+            $table->timestamps();
         });
     }
 
@@ -32,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('log_validasi_akun');
+        Schema::dropIfExists('status_tugas_akhir');
     }
 };

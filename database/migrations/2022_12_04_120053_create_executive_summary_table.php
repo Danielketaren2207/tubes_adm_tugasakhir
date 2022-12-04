@@ -13,10 +13,15 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('uji_program', function (Blueprint $table) {
-            $table->integer('id_uji_program');
+        Schema::create('executive_summary', function (Blueprint $table) {
+            $table->integer('id_exum');
             $table->integer('id_tugas_akhir');
-            $table->dateTime('hari_tanggal_waktu');
+            $table->text('latar_belakang');
+            $table->text('penelitian_terdahulu');
+            $table->text('rumusan_masalah');
+            $table->text('metodologi');
+            $table->text('referensi');
+            $table->timestamps();
         });
     }
 
@@ -27,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('uji_program');
+        Schema::dropIfExists('executive_summary');
     }
 };

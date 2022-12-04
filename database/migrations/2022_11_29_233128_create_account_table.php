@@ -19,6 +19,9 @@ return new class extends Migration
             $table->dateTime('last_access');
             $table->enum('level',['mahasiswa', 'prodi', 'lab_pel', 'admin']);
             $table->string('foto');
+            $table->string('email');
+            $table->string('no_hp');
+            $table->enum('jenis_kelamin', ['L','P']);
             $table->timestamps();
         });
     }

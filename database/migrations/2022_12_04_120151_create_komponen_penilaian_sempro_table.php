@@ -13,10 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('dosen', function (Blueprint $table) {
+        Schema::create('komponen_penilaian_sempro', function (Blueprint $table) {
+            $table->integer('id_sempro');
             $table->string('nip', 18);
-            $table->string('nama_dosen');
-            $table->string('jabatan');
+            $table->string('komponen_penilaian');
+            $table->enum('penilaian',['Terima', 'Perbaiki','Ganti']);
+            $table->text('keterangan');
+            $table->text('masukan_dan_saran');
         });
     }
 
@@ -27,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('dosen');
+        Schema::dropIfExists('komponen_penilaian_sempro');
     }
 };
